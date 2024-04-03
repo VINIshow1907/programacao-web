@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+.App-nomeempresa {
+  background-color: #7a06f6;
+}
+.App-vmveiculos {
+  height: 60vmin;
+  pointer-events: none;
+  width: 200vmin;
+}
+.nomeempresa {
+  color: white;
+  background-color: #909090;
+  margin: 5px;
+}
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-button{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  padding: 20px 30px;
+  font-size: 25px;
+  background-color: rgb(249, 205, 205);
+  color: #ea4141;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+ 
+.button:hover{
+  background-color: #ea4141;
+  color: #ffffff;
+}
+
+.App-link {
+  color: white;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*RODAPE ABAIXO*/
+:root{
+  --primary-color: #fff;
+  --background-color:#909090 ;
+  --font-family: 'Montserrat', sans-serif;
+}
+.rodape{
+  max-width: 100%;
+  background-color: var(--background-color);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 40px;
+  max-height: 200PX;
+}
+.rodape .redes-sociais{
+  margin: 32px;
+}
+.redes-sociais img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.rodape .logo{
+ margin-right: 32px;
+}
+.rodape .desenvolvido{
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: 200;
+  margin-right: 0;
+}
