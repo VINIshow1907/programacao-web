@@ -2,6 +2,12 @@ import React from "react";
 import styles from "./Produto.module.css"; 
 import { useState, useEffect } from "react"; 
 const Produto = () => { 
+    const [Name, setName]=useState(''); 
+    const [Tipo, setTipo]  = useState(''); 
+    const [Marca, setMarca]  = useState(''); 
+    const [Preco, setPreco]  = useState(''); 
+    const [error, setError] = useState(''); 
+    
   return ( 
     <div>
       <h1>Cadastre o produto</h1> 
@@ -10,28 +16,28 @@ const Produto = () => {
             <span> 
                 Nome do Produto: 
             </span> 
-            <input type="text" name="displayName" required placeholder="Nome do Produto" /> 
+            <input type="text" name="Name" required placeholder="Nome do Produto" /> 
         </label> 
 
         <label> 
             <span> 
                 Tipo do Produto: 
             </span> 
-            <input type="text" name="displayEmail" required placeholder="Tipo do Produto" /> 
+            <input type="text" name="Tipo" required placeholder="Tipo do Produto" /> 
         </label> 
 
         <label> 
             <span> 
                 Marca do Produto: 
             </span> 
-            <input type="text" name="displayPassword" required placeholder="Marca do Produto" /> 
+            <input type="text" name="Marca" required placeholder="Marca do Produto" /> 
         </label> 
 
         <label> 
             <span> 
                 Preço do Produto: 
             </span> 
-            <input type="text" name="displayConfirm" required placeholder="Preço do Produto" /> 
+            <input type="text" name="Preco" required placeholder="Preço do Produto" /> 
         </label> 
         <button className="btn"> 
             Cadastrar 
