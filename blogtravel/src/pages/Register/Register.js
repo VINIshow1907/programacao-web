@@ -1,27 +1,37 @@
 import React from "react";
 import styles from "./Register.module.css";
 import { useState, useEffect } from "react";
-const Register = () => {
-  const [Name, setName] = useState("");
-  const [Email, setEmail] = useState("");
-  const [Password, setPassword] = useState("");
-  const [Confirm, setConfirm] = useState("");
-  const [error, setError] = useState("");
+import { useAuthentication } from "../../hooks/useAuthentication";
 
-  const handleSubmit = (e) => {
+const Register = () => {
+  const [name, setDisplayName] = useState("");
+  const [email, setDisplayEmail] = useState("");
+  const [password, setDisplayPassword] = useState("");
+  const [displayConfirm, setDisplayConfirm] = useState("");
+  const [error, setError] = useState("");
+  const {createUser, error: authError, loading} = useAuthentication(); 
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
     
     const user = {
-      Name,
-      Email,
-      Password,
+      name,
+      email,
+      password,
     };
-    if (Password !== Confirm) {
+    if (password !== displayConfirm) {
       setError("As senhas precisam ser iguais!");
       return;
     }
+    const res = await createUser(user)
   };
+
+  useEffect(() => { 
+    if (authError) { 
+      setError(authError) 
+    } 
+  }, [authError]) 
 
   return (
     <div className={styles.register}>
@@ -31,11 +41,11 @@ const Register = () => {
           <span>Nome:</span>
           <input
             type="text"
-            name="displayName"
+            name="Name"
             required
             placeholder="Nome Usuário"
-            value={Name}
-            onChange={(e) => setName(e.target.value)}
+            value={name}
+            onChange={(e) => setDisplayName(e.target.value)}
           />
         </label>
 
@@ -43,11 +53,11 @@ const Register = () => {
           <span>E-mail:</span>
           <input
             type="email"
-            name="displayEmail"
+            name="email"
             required
             placeholder="E-mail Usuário"
-            value={Email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+            onChange={(e) => setDisplayEmail(e.target.value)}
           />
         </label>
 
@@ -55,11 +65,11 @@ const Register = () => {
           <span>Senha:</span>
           <input
             type="password"
-            name="displayPassword"
+            name="password"
             required
             placeholder="Senha Usuário"
-            value={Password}
-            onChange={(e) => setPassword(e.target.value)}
+            value={password}
+            onChange={(e) => setDisplayPassword(e.target.value)}
           />
         </label>
 
@@ -70,11 +80,13 @@ const Register = () => {
             name="displayConfirm"
             required
             placeholder="Confirme Senha Usuário"
-            value={Confirm}
-            onChange={(e) => setConfirm(e.target.value)}
+            value={displayConfirm}
+            onChange={(e) => setDisplayConfirm(e.target.value)}
           />
         </label>
         <button className="btn">Cadastrar</button>
+        {!loading && <button className="btn">Cadastrar</button>} 
+        {loading &&  <button className="btn" disabled>Aguarde...</button>} 
         {error && <p className="error">{error}</p>} 
       </form>
     </div>
