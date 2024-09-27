@@ -1,11 +1,10 @@
-/* Estilos gerais da aplicação */
 .App {
   text-align: center;
-  display: flex; /* Define como flex container */
-  flex-direction: column; /* Alinha os filhos verticalmente */
-  align-items: center; /* Centraliza horizontalmente */
-  justify-content: center; /* Centraliza verticalmente */
-  min-height: 100vh; /* Garante que ocupe a altura total da viewport */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
 }
 
 /* Estilo do logo */
@@ -20,50 +19,128 @@
   }
 }
 
-/* Estilos do cabeçalho para centralizar vertical e horizontalmente */
+
 .App-header {
   background-color: #282c34;
-  width: 100%; /* Garante que o cabeçalho ocupe toda a largura */
+  width: 100%; 
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza horizontalmente */
-  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; 
+  justify-content: center; 
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-/* Contêiner adicional para centralizar os itens */
+
 .Todo-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza horizontalmente */
-  justify-content: center; /* Centraliza verticalmente */
-  margin: 20px 0; /* Ajusta o espaçamento ao redor */
+  align-items: center; 
+  justify-content: center; 
+  margin: 20px 0; 
 }
 
 .App-link {
   color: #61dafb;
 }
+
 .todo {
   display: flex;
-  align-items: center; /* Alinha os itens no centro verticalmente */
-  justify-content: space-between; /* Espaço igual entre o input e os botões */
-  margin: 10px 0; /* Espaço entre os elementos todo */
-  padding: 10px; /* Espaçamento interno */
-  border: 1px solid #ccc; /* Borda para melhor visibilidade */
-  border-radius: 5px; /* Cantos arredondados */
-  background-color: #f9f9f9; /* Fundo claro */
+  align-items: center; 
+  justify-content: space-between;
+  margin: 10px 0; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #f9f9f9; 
 }
 
 .list {
-  flex: 1; /* Faz o input ocupar o espaço disponível */
-  border: none; /* Remove a borda padrão do input */
-  padding: 10px; /* Espaçamento interno do input */
-  border-radius: 5px; /* Cantos arredondados do input */
-  margin-right: 10px; /* Espaço entre o input e os botões */
+  flex: 1; 
+  border: none; 
+  padding: 10px; 
+  border-radius: 5px;
+  margin-right: 10px; 
+}
+.Todo-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; 
+  margin: 20px 0; 
 }
 
-/* Animação do logo */
+
+.Todo-container .add {
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  width: 300px; 
+  box-sizing: border-box; 
+}
+
+
+.Todo-container button {
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s; 
+  margin-top: 5px; 
+}
+
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #63c6f7;
+}
+
+button.delete {
+  background-color: #ff4d4d; 
+  color: white;
+}
+
+button.edit {
+  background-color: #007bff; 
+  color: white;
+}
+
+button.confirm {
+  background-color: #28a745; 
+  color: white;
+}
+
+button.add {
+  background-color: #add8e6; 
+  color: black;
+}
+
+.Subject {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 10vh; 
+  text-align: center; 
+}
+
+.Subject h1 {
+  font-size: 2rem;
+  color: #333; 
+  margin: 0; 
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

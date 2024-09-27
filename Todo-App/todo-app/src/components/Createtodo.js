@@ -23,11 +23,10 @@ function CreateTodo() {
                 placeholder='O que você quer cadastrar?'
                 value={Subject}
                 onChange={(e) => setSubject(e.target.value)}
-                className="Todo-input"
+                className="add"
             />
-            <button type="submit">Add Todo</button>
+            <button type="submit">Cadastrar</button>
         </form>
     );
 }
-
 export default CreateTodo;

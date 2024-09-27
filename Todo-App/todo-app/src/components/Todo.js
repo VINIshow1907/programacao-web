@@ -4,10 +4,8 @@ import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 export default function Todo({ todo, toggleComplete, handleDelete, handleEdit }) {
-  // Verifica se o todo é válido antes de usar
   
-
-  const [newTitle, setNewTitle] = useState(todo.Subject);
+const [newTitle, setNewTitle] = useState(todo.Subject);
 
   
   useEffect(() => {
@@ -32,13 +30,13 @@ export default function Todo({ todo, toggleComplete, handleDelete, handleEdit })
         onChange={handleChange}
       />
       <div>
-        <button className="button-complete" onClick={() => toggleComplete(todo)}>
+        <button className="confirm" onClick={() => toggleComplete(todo)}>
           <CheckCircleIcon id="i" />
         </button>
-        <button className="button-edit" onClick={() => handleEdit(todo, newTitle)}>
+        <button className="edit" onClick={() => handleEdit(todo, newTitle)}>
           <EditIcon id="i" />
         </button>
-        <button className="button-delete" onClick={() => handleDelete(todo.id)}>
+        <button className="delete" onClick={() => handleDelete(todo.id)}>
           <DeleteIcon id="i" />
         </button>
       </div>
