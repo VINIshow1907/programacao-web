@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|c:\\users\\vinic\\desktop\\projeto\\projeto\\employeewebapiapplication\\employeewebapiapplication\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|solutionrelative:employeewebapiapplication\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\employeewebapiapplication\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|solutionrelative:employeewebapiapplication\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\employeewebapiapplication\\context\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|solutionrelative:employeewebapiapplication\\context\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\employeewebapiapplication\\context\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|solutionrelative:employeewebapiapplication\\context\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\employeewebapiapplication\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|solutionrelative:employeewebapiapplication\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\employeewebapiapplication\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|solutionrelative:employeewebapiapplication\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\employeewebapiapplication\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8956E4E1-2D34-4636-AFC7-7BDA5B53A5F7}|EmployeeWebAPIApplication\\EmployeeWebAPIApplication.csproj|solutionrelative:employeewebapiapplication\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Context\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeWebAPIApplication\\Context\\EmployeeDbContext.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Context\\EmployeeDbContext.cs",
+              "RelativeToolTip": "EmployeeWebAPIApplication\\Context\\EmployeeDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:01:11.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Context\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "EmployeeWebAPIApplication\\Context\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Context\\DatabaseInitializer.cs",
+              "RelativeToolTip": "EmployeeWebAPIApplication\\Context\\DatabaseInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:01:10.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "EmployeeWebAPIApplication\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "EmployeeWebAPIApplication\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:01:03.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "EmployeeWebAPIApplication\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "EmployeeWebAPIApplication\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:00:59.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "EmployeeWebAPIApplication\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "EmployeeWebAPIApplication\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:00:54.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeWebAPIApplication\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeWebAPIApplication\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:00:35.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeWebAPIApplication\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\PROJETO\\PROJETO\\EmployeeWebAPIApplication\\EmployeeWebAPIApplication\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeWebAPIApplication\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:01:16.555Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

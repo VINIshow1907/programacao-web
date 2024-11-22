@@ -1,0 +1,14 @@
+# Normaliza os arquivos de texto para usar LF no repositório
+* text=auto
+
+# Especifica que arquivos de shell script devem ter terminadores LF
+*.sh text eol=lf
+
+# Especifica que scripts PowerShell devem ter terminadores CRLF
+*.ps1 text eol=crlf
+
+# Especifica que arquivos JSON devem usar LF
+*.json text eol=lf
+
+# Normaliza arquivos Markdown para LF
+*.md text eol=lf
